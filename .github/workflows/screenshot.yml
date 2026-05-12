@@ -24,6 +24,7 @@ jobs:
         run: |
           npm init -y
           npm install playwright
+          npx playwright install --with-deps
 
       - name: Screenshot erstellen
         run: node screenshot.js
