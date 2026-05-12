@@ -1,8 +1,8 @@
-const { chromium } = require('playwright');
+const { firefox } = require('playwright');
 
 (async() => {
 
-    const browser = await chromium.launch({
+    const browser = await firefox.launch({
         headless: true
     });
 
